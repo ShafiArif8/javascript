@@ -27,7 +27,7 @@
 
 // console.log(a);
 // console.log(name);
-console.log("DataTypes: \n -Number \n -string \n -Boolean \n -undefined");
+console.log("DataTypes: \n    -Number \n    -string \n    -Boolean \n    -undefined");
 
 let age = 42
 let str ="this is a string"
@@ -42,7 +42,7 @@ console.log("      type of variable undef is", typeof undef);
 
 /**
  * OUTPUT:-
-   * PS C:\Users\User\Desktop\SHAFI\webwithjs> node new
+   * PS C:\Users\User\Desktop\SHAFI\webwithjs> 
 DataTypes: 
  -Number
  -string
@@ -55,3 +55,103 @@ DataTypes:
       type of variable undef is undefined
 PS C:\Users\User\Desktop\SHAFI\webwithjs>
  */
+// conversion of datatypes
+  //starts
+    let score ="66";
+    console.log("The type of score is",typeof score);
+    // let scoreInt =Number(score)
+    // console.log("The type of scoreInt is",typeof scoreInt);    
+    score =Number(score)
+    console.log( score,typeof score);
+    score =Boolean(score)
+    console.log( score,typeof score);
+    score =String(score)
+    console.log( score,typeof score);
+
+    /**
+     * PS C:\Users\User\Desktop\SHAFI\webwithjs> node new
+DataTypes: 
+    -Number 
+    -string 
+    -Boolean 
+    -undefined
+      type of variable age is number
+      type of variable str is string
+      type of variable bool1 is boolean
+      type of variable bool0 is boolean
+      type of variable undef is undefined
+string
+number
+PS C:\Users\User\Desktop\SHAFI\webwithjs> node new
+DataTypes: 
+    -Number
+    -string
+    -Boolean
+    -undefined
+      type of variable age is number
+      type of variable str is string
+      type of variable bool1 is boolean
+      type of variable bool0 is boolean
+      type of variable undef is undefined
+The type of score is string
+The type of scoreInt is number
+66
+PS C:\Users\User\Desktop\SHAFI\webwithjs> node new
+DataTypes: 
+    -Number
+    -string
+    -Boolean
+    -undefined
+      type of variable age is number
+      type of variable str is string
+      type of variable bool1 is boolean
+      type of variable bool0 is boolean
+      type of variable undef is undefined
+The type of score is string
+The type of scoreInt is number
+number
+PS C:\Users\User\Desktop\SHAFI\webwithjs> node new
+DataTypes: 
+    -Number
+    -string
+    -Boolean
+    -undefined
+      type of variable age is number
+      type of variable str is string
+      type of variable bool1 is boolean
+      type of variable bool0 is boolean
+      type of variable undef is undefined
+The type of score is string
+number
+PS C:\Users\User\Desktop\SHAFI\webwithjs> node new
+DataTypes: 
+    -Number
+    -string
+    -Boolean
+    -undefined
+      type of variable age is number
+      type of variable str is string
+      type of variable bool1 is boolean
+      type of variable bool0 is boolean
+      type of variable undef is undefined
+The type of score is string
+66 number
+true boolean
+true string
+PS C:\Users\User\Desktop\SHAFI\webwithjs> node new
+DataTypes: 
+    -Number
+    -string
+    -Boolean
+    -undefined
+      type of variable age is number
+      type of variable str is string
+      type of variable bool1 is boolean
+      type of variable bool0 is boolean
+      type of variable undef is undefined
+The type of score is string
+false boolean
+false string
+PS C:\Users\User\Desktop\SHAFI\webwithjs>
+     */
+    
