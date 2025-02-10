@@ -27,26 +27,31 @@
 
 // console.log(a);
 // console.log(name);
+console.log("DataTypes: \n -Number \n -string \n -Boolean \n -undefined");
 
-// let age = 42
-// let str ="this is a string"
-// let bool1 = true
-// let bool0 = false
-// let undef
-// console.log("type of variable age is", typeof age);
-// console.log("type of variable str is", typeof str);  
-// console.log("type of variable bool1 is", typeof bool1);
-// console.log("type of variable bool0 is", typeof bool0);
-// console.log("type of variable undef is", typeof undef);
+let age = 42
+let str ="this is a string"
+let bool1 = true
+let bool0 = false
+let undef
+console.log("      type of variable age is", typeof age);
+console.log("      type of variable str is", typeof str);  
+console.log("      type of variable bool1 is", typeof bool1);
+console.log("      type of variable bool0 is", typeof bool0);
+console.log("      type of variable undef is", typeof undef);
 
 /**
  * OUTPUT:-
    * PS C:\Users\User\Desktop\SHAFI\webwithjs> node new
-  type of variable age is number
-  type of variable str is string
-  type of variable bool1 is boolean
-  type of variable bool1 is boolean
-  type of variable bool0 is boolean
-  type of variable undef is undefined
-  PS C:\Users\User\Desktop\SHAFI\webwithjs>
+DataTypes: 
+ -Number
+ -string
+ -Boolean
+ -undefined
+      type of variable age is number
+      type of variable str is string
+      type of variable bool1 is boolean
+      type of variable bool0 is boolean
+      type of variable undef is undefined
+PS C:\Users\User\Desktop\SHAFI\webwithjs>
  */
