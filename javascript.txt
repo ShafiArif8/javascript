@@ -27,18 +27,19 @@
 
 // console.log(a);
 // console.log(name);
-console.log("DataTypes: \n    -Number \n    -string \n    -Boolean \n    -undefined");
 
-let age = 42
-let str ="this is a string"
-let bool1 = true
-let bool0 = false
-let undef
-console.log("      type of variable age is", typeof age);
-console.log("      type of variable str is", typeof str);  
-console.log("      type of variable bool1 is", typeof bool1);
-console.log("      type of variable bool0 is", typeof bool0);
-console.log("      type of variable undef is", typeof undef);
+// console.log("DataTypes: \n    -Number \n    -string \n    -Boolean \n    -undefined");
+
+// let age = 42
+// let str = "this is a string"
+// let bool1 = true
+// let bool0 = false
+// let undef
+// console.log("      type of variable age is", typeof age);
+// console.log("      type of variable str is", typeof str);  
+// console.log("      type of variable bool1 is", typeof bool1);
+// console.log("      type of variable bool0 is", typeof bool0);
+// console.log("      type of variable undef is", typeof undef);
 
 /**
  * OUTPUT:-
@@ -57,16 +58,16 @@ PS C:\Users\User\Desktop\SHAFI\webwithjs>
  */
 // conversion of datatypes
   //starts
-    let score ="66";
-    console.log("The type of score is",typeof score);
+    // let score ="66";
+    // console.log("The type of score is",typeof score);
     // let scoreInt =Number(score)
     // console.log("The type of scoreInt is",typeof scoreInt);    
-    score =Number(score)
-    console.log( score,typeof score);
-    score =Boolean(score)
-    console.log( score,typeof score);
-    score =String(score)
-    console.log( score,typeof score);
+    // score =Number(score)
+    // console.log( score,typeof score);
+    // score =Boolean(score)
+    // console.log( score,typeof score);
+    // score =String(score)
+    // console.log( score,typeof score);
 
     /**
      * PS C:\Users\User\Desktop\SHAFI\webwithjs> node new
@@ -155,3 +156,77 @@ false string
 PS C:\Users\User\Desktop\SHAFI\webwithjs>
      */
     
+
+/*
+ *
+tuesday, febuary 11, 2025
+
+STARTS
+
+ * 
+ */
+//////////////
+///////////
+
+// let txt = "abc";
+// let txtnumber = Number(txt);
+// console.log(typeof txtnumber);
+// console.log(txtnumber);//NaN (Not a Number) we could change type not value so its value is NaN(not a number) if and only if the anything else beside numbers
+
+// let txtnum = "2+1"
+// console.log( typeof txtnum, txtnum);
+// let txtintoNumber= Number(txtnum)
+// console.log(typeof txtintoNumber);
+// let txtintoboolean= Boolean(txtnum)
+// console.log(typeof txtintoboolean);
+// console.log(txtintoboolean);//true something exist in String even a space exists, it will be always true if converted into Boolean 
+// let emptystr = "";
+// let boo = Boolean(emptystr)
+// console.log(typeof boo);
+// console.log(boo);//false nothing exist in String not even a space, it will be always false if converted into Boolean 
+
+// //Comparasion Operators...
+
+// let num1 = 2
+// let num2 = "2"
+// console.log("num1 == num2",num1==num2);// we just comparing values (==)
+// console.log("num1 === num2",num1===num2);// we not just comparing values we are also comparing DataTypes (===)
+// console.log("num1 < num2",num1<num2);// we are Checking if value1 is less than value2 
+// console.log("num1 > num2",num1>num2);// we are Checking if value1 is greater than value2 
+// console.log("num1 != num2",num1!=num2);// we just comparing values if they're not equals(!=)
+// console.log("num1 !== num2",num1!==num2);// we not just comparing values we are also comparing DataTypes if they're equals (!==)
+
+// // AREA OF CIRCLE...
+// //how to play with variables...??. 
+// let radius = 3
+// const pi =3.142
+// let AreaOfCircle = pi*radius**2;
+// console.log("Area Of Circle is", AreaOfCircle, "and radius is", radius,"--->Way 1");//there are 2 way to use when need to display multiple value with text 
+// console.log(`Area Of Circle is ${AreaOfCircle} and radius is ${radius} ---> Way 2`);
+
+// //Conditional Statements
+// //if
+// if(3<5){//if (true){} means im tell js to run this block of code at any cost, inversely if we give if (false){} that means dont run this block of code at any cost, additionally if (3<5){} is equal to if (true){} and if (3>5) is equal to if (false){} 
+//   console.log("hello its if statement")
+// }
+// /*
+//  * 
+//  * curly brackets tell that from where scope of condition starts and where it ends
+//  * 
+//  */
+
+// else{//if our if-statement's condition isn't satified or not true then automatically else block of cod ewoll run 
+//   console.log("can't run this block of code condition isn't satified");
+  
+// }
+
+
+let x= "messi";
+if (x==="ronaldo"){
+console.log("Ronaldo is a goat!");
+
+}
+else{
+  console.log(` ${x} is good but not my favorite`);
+  
+}
